@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns01000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Lato" controllayout="npnxnanbsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Lato" controllayout="pxabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Lato" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Lato" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Lato" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns01000000001" font="Lato" controllayout="npnxnanbsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
+    <layout name="pxabnsnfns01000000001" font="Lato" controllayout="pxabnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
+    <layout name="npxnabnsnfns01000000001" font="Lato" controllayout="npxnabnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
+    <layout name="npnxnanbnsnfns01000000001" font="Lato" controllayout="npnxnanbnsnfns01000000001" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
+    <layout name="pxabnsnfns01000000000" font="Lato" controllayout="pxabnsnfns01000000000" colorscheme="pxabnsnfns01000000001" string_table="pxabnsnfns01000000001" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
               <option name="title_text" value="VLOOKUP" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/6ZFtJqC7Rq0.png" />
+            </options>
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -43,7 +46,7 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" />
+          <option name="logoAltText" value="brand.png" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -88,15 +91,20 @@
           <option name="submit" value="icon" />
         </options>
       </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="false" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000001">
+    <control_layout name="npnxnanbsnfns01000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -114,12 +122,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000001">
+    <control_layout name="pxabnsnfns01000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -137,12 +145,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000001">
+    <control_layout name="npxnabnsnfns01000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -160,12 +168,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000001">
+    <control_layout name="npnxnanbnsnfns01000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -183,12 +191,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000000">
+    <control_layout name="pxabnsnfns01000000000">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -208,7 +216,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00000000001">
+    <colorscheme name="pxabnsnfns01000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1385,7 +1393,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00000000001">
+    <string_table name="pxabnsnfns01000000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1540,8 +1548,8 @@
         <slidelink slideid="_player.6RKi95NXjyW" displaytext="Scenario 1" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6RKi95NXjyW.67J0a9w6o96" displaytext="Basic Exact Match Scenario" expand="false" type="slide" />
-            <slidelink slideid="_player.6RKi95NXjyW.6OoDyffxwH4" displaytext="Basic Exact Match Scenario: View Steps" expand="false" type="slide" />
-            <slidelink slideid="_player.6RKi95NXjyW.6hUq6kE6Sml" displaytext="Basic Exact Match Scenario: Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6RKi95NXjyW.6OoDyffxwH4" displaytext="View Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6RKi95NXjyW.6hUq6kE6Sml" displaytext="Try Steps" expand="false" type="slide" />
             <slidelink slideid="_player.6RKi95NXjyW.5cXIp9hS5Cc" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6RKi95NXjyW.5ZIBYb5VP4P" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6RKi95NXjyW.6IHwBjSucf5" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1556,22 +1564,59 @@
         <slidelink slideid="_player.5v2YIeY26k6" displaytext="Scenario 2" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5v2YIeY26k6.5j79FmiHt3q" displaytext="Exact Match Across Workbooks Scenario " expand="false" type="slide" />
-            <slidelink slideid="_player.5v2YIeY26k6.6INzYHZj2Vs" displaytext="Exact Match Across Workbooks Scenario : View Steps" expand="false" type="slide" />
-            <slidelink slideid="_player.5v2YIeY26k6.5u8jgbKJsQQ" displaytext="Exact Match Across Workbooks Scenario : Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5u8jgbKJsQQ" displaytext="Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5eRy3mWtfKC" displaytext="View Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.6pnu1Lbo53h" displaytext="Type =vlookup(" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5WVghSglAmP" displaytext="Click Workbook B" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.6e8ndXkkGZR" displaytext="Type ," expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5m6VXLcqYda" displaytext="Click Workbook A" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.6hAXBBkpoV6" displaytext="Click and drag" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5i1gj6HbxpO" displaytext="Type ,3,0" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.6ZgpMFh3LHl" displaytext="Click Workbook B" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.5VmlsviAZGv" displaytext="Double-Click Workbook B" expand="false" type="slide" />
+            <slidelink slideid="_player.5v2YIeY26k6.6OW6kDtmh03" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6CASQDigrzy" displaytext="Scenario 3" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6CASQDigrzy.6RztiWK9gjm" displaytext="Exact Match with Multiple Return Scenario " expand="false" type="slide" />
-            <slidelink slideid="_player.6CASQDigrzy.5y435Mq41cp" displaytext="Exact Match with Multiple Return Scenario : View Steps" expand="false" type="slide" />
-            <slidelink slideid="_player.6CASQDigrzy.6euZ4WZpNFs" displaytext="Exact Match with Multiple Return Scenario : Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6euZ4WZpNFs" displaytext="Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5i24FrjT0UU" displaytext="View Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5mrkW187e2z" displaytext="Type =vlookup(" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6VNbofvEQjg" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6G6RHKAf6Zx" displaytext="Press F4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6WcYNq8OVg9" displaytext="Press F4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5t09A0JKHEy" displaytext="Press F4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5y3zdjOgMj9" displaytext="Type ," expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6X6hH2gT5Ag" displaytext="Click and drag" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5o6JgVIaYas" displaytext="Press F4" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6OwVOv2dVQQ" displaytext="Type ,column(" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6luDEIaEZi8" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6QJV0uEmfxl" displaytext="Type ),0)" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6Fq7HibF0Kq" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5Y3odPiDV9j" displaytext="Click and drag" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.69LamP0Blyb" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.69JmNhEIla0" displaytext="Double-Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.5VUHzvQsmC2" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.66NX1L86CDd" displaytext="Double-Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6Vira4qa2FV" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6j2qqS0BxVH" displaytext="Double-Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6CASQDigrzy.6IXAjVMYtpn" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6L8cgjAE52t" displaytext="Scenario 4" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6L8cgjAE52t.6O0RjOzWwB3" displaytext="Approximate Match Scenario " expand="false" type="slide" />
-            <slidelink slideid="_player.6L8cgjAE52t.6TYe8BfzZBZ" displaytext="Approximate Match Scenario : View Steps" expand="false" type="slide" />
-            <slidelink slideid="_player.6L8cgjAE52t.6YdVIMm1bF4" displaytext="Approximate Match Scenario : Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.6YdVIMm1bF4" displaytext="Try Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.69tICYoKpdn" displaytext="View Steps" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.642C2zZ9Wq5" displaytext="Type =vlookup(" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.5tH5g1Srbih" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.6iERQkIhkv3" displaytext="Type ," expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.6fDLmRnBHEi" displaytext="Click and drag" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.67tkp6QWf7C" displaytext="Type ,2,1" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.5n7xeEnknId" displaytext="Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.5sk30TdMBh4" displaytext="Double-Click Student Grade 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6L8cgjAE52t.5oUevmDeaM7" displaytext="Click Student Grade 1" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
